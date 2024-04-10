@@ -1,0 +1,33 @@
+.banner-text {
+    color: darkolivegreen;
+    font-size: 50px;
+    background: darkgoldenrod;
+    width: 175px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: solid 3px rgb(114, 84, 6);
+
+}
+
+.title-text {
+    color: darkolivegreen;
+    font-size: 50px;
+    background: darkgoldenrod;
+    width: 600px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: solid 3px rgb(114, 84, 6);
+}
+
+.navbar {
+    background: darkolivegreen;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border: solid 3px rgb(114, 84, 6);
+}
+
+.nav-option {
+    color: darkkhaki;
+    margin-right: 5px;
+}
