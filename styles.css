@@ -1,3 +1,7 @@
+body {
+    background-color: darkseagreen;
+}
+
 .banner-text {
     color: darkolivegreen;
     font-size: 50px;
@@ -30,4 +34,69 @@
 .nav-option {
     color: darkkhaki;
     margin-right: 5px;
+}
+
+.container {
+    display: flex;
+  }
+
+.about-text {
+    width: 900px;
+    background-color: olive;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+  
+.about-text h2 {
+    color: black;
+    margin-top: 0;
+    font-size: 1.5em;
+}
+  
+.about-text p {
+    color: black;
+    margin-bottom: 0;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.img-container {
+    flex: 1;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    .image-container {
+      margin-top: 20px; /* Adjust spacing between bio and image for smaller screens */
+    }
+}
+
+.facts-text {
+    width: 700px;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+  
+.facts-text h2 {
+    color: black;
+    margin-top: 0;
+    font-size: 1.5em;
+}
+  
+.facts-text p {
+    color: black;
+    margin-bottom: 0;
+    font-size: 1em;
+    line-height: 1.5;
 }
