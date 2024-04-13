@@ -40,6 +40,29 @@ body {
     display: flex;
   }
 
+.index-text {
+    width: 900px;
+    background-color: darkgoldenrod;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+  
+.index-text h2 {
+    color: black;
+    margin-top: 0;
+    font-size: 2em;
+}
+  
+.index-text p {
+    color: black;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
 .about-text {
     width: 900px;
     background-color: olive;
@@ -63,10 +86,39 @@ body {
     line-height: 1.5;
 }
 
+.project-text {
+    width: 900px;
+    background-color: orangered;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+  
+.project-text h2 {
+    color: black;
+    margin-top: 0;
+    font-size: 2em;
+}
+  
+.project-text p {
+    color: black;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
 .img-container {
     flex: 1;
     margin-left: 20px;
     margin-top: 20px;
+}
+
+.image-container {
+    flex: 1;
+    margin-left: 20px;
+    margin-top: 40px;
 }
 
 @media (max-width: 768px) {
@@ -100,3 +152,5 @@ body {
     font-size: 1em;
     line-height: 1.5;
 }
+
+
